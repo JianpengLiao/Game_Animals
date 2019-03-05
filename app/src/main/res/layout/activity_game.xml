@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/iv_img1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="38dp"
+        android:onClick="onSelect0"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageView
+        android:id="@+id/iv_img2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="38dp"
+        android:onClick="onSelect1"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+
+    <ImageView
+        android:id="@+id/iv_img3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onSelect2"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintEnd_toEndOf="@+id/iv_img1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/iv_img1"
+        app:layout_constraintTop_toBottomOf="@+id/iv_img1" />
+
+    <ImageView
+        android:id="@+id/iv_img4"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onSelect3"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintEnd_toEndOf="@+id/iv_img2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/iv_img2"
+        app:layout_constraintTop_toBottomOf="@+id/iv_img2" />
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="---"
+        android:textSize="30sp"
+        android:textColor="@color/btn_textClor"
+        android:fontFamily="@font/font_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_one"
+        android:gravity="center_vertical"
+        android:text="0"
+        android:textColor="@color/btn_textClor"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/font_one"
+        android:gravity="center_vertical"
+        android:text="3"
+        android:textColor="@color/btn_textClor"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Your Score:"
+        android:textColor="@color/btn_textClor"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_score"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="Residue degree:"
+        android:textColor="@color/btn_textClor"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_score"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

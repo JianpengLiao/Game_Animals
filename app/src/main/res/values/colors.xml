@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_bgClor">#fff</color>
+    <color name="btn_textClor">#0066FF</color>
+    <color name="textClor">#D0D0D0</color>
+    <color name="resultRed">#ff0000</color>
+    <color name="geratText">#FFFF33</color>
+    <color name="overText">#990000</color>
+    <color name="overBtnBg">#909090</color>
+    <color name="overBtnTxt">#F8F8F8</color>
+</resources>
