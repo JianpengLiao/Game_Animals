@@ -9,4 +9,4 @@ The App is design as follow:
 
 The App run in mobile phone is as follow:
 
-![image](
+![image](https://github.com/JianpengLiao/Game_Animals/blob/master/Game_Animals_Phone.gif)
